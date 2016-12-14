@@ -1,5 +1,4 @@
 import React from 'react';
-import YeomanImage from './YeomanImage';
 import AddForm from './add-form/AddForm';
 import UserCard from './user-card/UserCard';
 import './app.scss';
@@ -12,7 +11,7 @@ class AppComponent extends React.Component {
     const {user, textfield} = this.props;
 
     return (
-      <div className="index">
+      <div className="index box">
         <AddForm user={user} textfield={textfield} />
           <ul>
             {this.props.user.list.map(function(usr) {

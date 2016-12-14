@@ -36,8 +36,9 @@ class AppComponent extends React.Component {
     return (
       <form onSubmit={this.addUser}>
         <fieldset>
-          <div>
-            <label htmlFor="userId">Add user</label>
+          <label htmlFor="userId" className="label">Add user</label>
+          <div className="control">
+
             <input
               id="userId"
               type="text"
@@ -45,13 +46,14 @@ class AppComponent extends React.Component {
               placeholder="insert new user ID"
               pattern="^[0-9]+$"
               onChange={this.handleChange}
+              className="input"
               title="The Id must be number only" />
           </div>
-          <div>
-            <button type="submit">Add</button>
+          <div className="control buttons">
+            <button type="submit" className="button is-primary">Add</button>
           </div>
         </fieldset>
-        
+
       </form>
     );
   }

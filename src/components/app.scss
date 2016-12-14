@@ -1,11 +1,24 @@
 @import "node_modules/bulma/bulma";
 
+label{
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+fieldset{
+  color: #00d1b2;
+  padding: 0.5em;
+}
+
+.buttons{
+  text-align: right;
+}
+
 .index {
   width: 40%;
   margin: 50px auto;
   padding: 10px;
-  background: #333;
-  border: 8px solid #F00;
+  border: 1px solid #00d1b2;
   border-radius: 2px;
   text-align: center;
   box-sizing: border-box;
