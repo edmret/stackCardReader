@@ -1,0 +1,9 @@
+{
+  "generator-react-webpack": {
+    "appName": "stack-card-reader",
+    "style": "sass",
+    "cssmodules": true,
+    "postcss": true,
+    "generatedWithVersion": 4
+  }
+}
